@@ -13,5 +13,8 @@ rm 路径  删除文件
 cat 文件名  获取文件内容并展示
      git checkout -b 分支名 创建并切换分支
      git branch 查看当前分支
+     git merge 分支名 合并指定分支到当前分支
+     git checkout 分支名 切换当前分支
+     git branch -d 分支名 删除指定分支
      
 
