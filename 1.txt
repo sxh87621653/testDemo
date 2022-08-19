@@ -1,3 +1,17 @@
-111
-222
-333
+cd 路径前进
+     git init 创建本地库
+rm 路径  删除文件
+     git add 文件名 提交文件至暂存区
+     git status 查看暂存区文件以及对应状态
+     git commit -m "注释"  提交文件至本地库
+     git diff 文件名 查看指定文件改动内容
+     git log 查看历史记录
+     git reflog 查看简写版本号下的历史记录
+     git reset --hard ^ 回退至上一版本
+     git reset --hard 版本号 回退至指定版本
+     git checkout --文件名 撤销操作（只撤销未提交至暂存区或本地库的操作）
+cat 文件名  获取文件内容并展示
+     git checkout -b 分支名 创建并切换分支
+     git branch 查看当前分支
+     
+
